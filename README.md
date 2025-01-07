@@ -63,8 +63,6 @@ An automated cloud security analysis tool that integrates Prowler security check
    ```bash
    python3 app.py
 
-
-
 ## This will execute:
 1. Prowler installation check
 2. Security scan using Prowler

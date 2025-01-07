@@ -1,14 +1,22 @@
-# Data Processing
-pandas>=2.0.0
+# Data Processing and Analysis
+pandas==2.0.3
+numpy==1.24.3
 
 # Machine Learning
-scikit-learn>=1.3.0
+scikit-learn==1.3.0
 
 # Data Visualization
-matplotlib>=3.7.0
+matplotlib==3.7.2
 
-# HTTP Requests
-requests>=2.31.0
+# HTTP and API Requests 
+requests==2.31.0
 
 # Environment Variables
-python-dotenv>=1.0.0
+python-dotenv==1.0.0
+
+# AWS Security
+#prowler==3.10.1
+
+# Optional Dependencies (if needed)
+seaborn==0.12.2
+plotly==5.18.0

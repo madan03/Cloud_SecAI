@@ -69,3 +69,10 @@ def run_prowler_check():
             print(f"Error output:\n{error_output}")
     except FileNotFoundError:
         print("Prowler command not found. Ensure Prowler is installed and in PATH.")
+
+def main():
+    """Main function to run the Prowler check."""
+    run_prowler_check()
+
+if __name__ == "__main__":
+    main()

@@ -15,9 +15,34 @@ An automated cloud security analysis tool that integrates Prowler security check
    sudo apt-get update;
    sudo apt-get install awscli
 
-
-2. Verify AWS CLI installation ::
+2. Verify AWS CLI installation:
+   ```bash
    aws --version
+3. Configure AWS Credentials:
+  ```bash
+  aws configure
+
+4. You will be prompted for:
+
+  AWS Access Key ID
+  AWS Secret Access Key
+  Default region name (e.g., us-east-1)
+  Default output format (json)
+
+5. Verify configuration:
+  '''bash
+aws sts get-caller-identity
+
+Expected output:
+
+json
+Copy code
+{
+  "UserId": "USERID",
+  "Account": "123456789012",
+  "Arn": "arn:aws:iam::123456789012:user/YourUsername"
+}
+
 
 3. Configure AWS Credientials::
    aws configure

@@ -22,7 +22,7 @@ Ensure that Python 3.8 or higher is installed. You can verify your Python versio
     source abcenv/bin/activate 
 
 3.2 **For Windows**:
-    ```bash
+    
     .\abcenv\Scripts\activate
 
 
@@ -100,6 +100,14 @@ Ensure that Python 3.8 or higher is installed. You can verify your Python versio
 - Modify scan parameters in `run_prowler.py`
 - Adjust anomaly detection settings in `anomaly.py`
 - Configure ML parameters in `Pre_anal_ml.py`
+
+## Special Thanks
+
+**Special thanks to**:
+- [Prowler](https://github.com/prowler-cloud/prowler) - The open-source security tool for AWS that made this project possible
+- The entire Prowler community for their contributions and support
+- AWS Security community for their continuous guidance
+
 
 
 

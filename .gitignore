@@ -1,0 +1,33 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.local
+
+# Output directories
+output/
+DataPre/output_pre/
+**/prowler_results.csv
+**/prowler_aggregated_severity_counts.csv
+
+# Generated plots
+*.png
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+venv/
+env/
+.Python
+
+# CSV files
+*.csv

@@ -61,7 +61,7 @@ An automated cloud security analysis tool that integrates Prowler security check
 ## Usage
 1. **Run the complete analysis pipeline**:
    ```bash
-  python3 app.py
+   python3 app.py
 
 
 

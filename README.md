@@ -24,17 +24,19 @@ An automated cloud security analysis tool that integrates Prowler security check
    aws configure
 
 4. **You will be prompted for**:
-  AWS Access Key ID
-  AWS Secret Access Key
-  Default region name (e.g., us-east-1)
-  Default output format (json)
 
+
+- AWS Access Key ID
+- AWS Secret Access Key
+- Default region name (e.g., us-east-1)
+- Default output format (json)
+  
 5. **Verify configuration**:
    ```bash
    aws sts get-caller-identity
 
 **Expected output**:
-``bash
+```bash
 {
   "UserId": "USERID",
   "Account": "123456789012",

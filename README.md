@@ -12,7 +12,7 @@ An automated cloud security analysis tool that integrates Prowler security check
 
 1. Install AWS CLI::
    
-   sudo apt-get update
+   sudo apt-get update;
    sudo apt-get install awscli
 
 2. Verify AWS CLI installation ::
@@ -33,7 +33,7 @@ An automated cloud security analysis tool that integrates Prowler security check
 
 5. Expected output::
    {
-    "UserId": "AIDASAMPLEUSERID",
+    "UserId": "USERID",
     "Account": "123456789012",
     "Arn": "arn:aws:iam::123456789012:user/YourUsername"
 }
@@ -56,27 +56,24 @@ An automated cloud security analysis tool that integrates Prowler security check
   Run the complete analysis pipeline:
   python3 app.py
 
+# Project Name
 
 ## This will execute:
-1.Prowler installation check
-2.Security scan using Prowler
-3.Data preprocessing
-4.Anomaly detection
-5.Machine learning analysis
+1. Prowler installation check
+2. Security scan using Prowler
+3. Data preprocessing
+4. Anomaly detection
+5. Machine learning analysis
 
-## Features::
- ->Automated AWS security scanning using Prowler
-->Data preprocessing and aggregation
-->Anomaly detection using Isolation Forest
-->Risk prediction using Random Forest
-->Slack integration for notifications
-->Automated report generation
+## Features:
+- Automated AWS security scanning using Prowler
+- Data preprocessing and aggregation
+- Anomaly detection using Isolation Forest
+- Risk prediction using Random Forest
+- Slack integration for notifications
+- Automated report generation
 
-## Configuration::
-Modify scan parameters in run_prowler.py
-Adjust anomaly detection settings in anomaly.py
-Configure ML parameters in Pre_anal_ml.py
-
-
-
-
+## Configuration:
+- Modify scan parameters in `run_prowler.py`
+- Adjust anomaly detection settings in `anomaly.py`
+- Configure ML parameters in `Pre_anal_ml.py`

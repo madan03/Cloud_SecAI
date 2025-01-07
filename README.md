@@ -19,7 +19,8 @@ Ensure that Python 3.8 or higher is installed. You can verify your Python versio
 3. **Activate the Virtual Environment**:
 3.1 **For Linux/macOS**:
     ```bash
-    source abcenv/bin/activate
+    source abcenv/bin/activate 
+
 3.2 **For Windows**:
     ```bash
     .\abcenv\Scripts\activate

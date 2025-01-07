@@ -30,13 +30,12 @@ An automated cloud security analysis tool that integrates Prowler security check
   Default output format (json)
 
 5. Verify configuration:
-  '''bash
-aws sts get-caller-identity
+   ```bash
+ aws sts get-caller-identity
 
 Expected output:
-
+    ```bash
 json
-Copy code
 {
   "UserId": "USERID",
   "Account": "123456789012",
@@ -45,6 +44,7 @@ Copy code
 
 
 3. Configure AWS Credientials::
+    ```bash
    aws configure
 
 You will be prompted for:
@@ -54,16 +54,6 @@ AWS Secret Access Key
 Default region name (e.g., us-east-1)
 Default output format (json)
 
-4. Verify configuration::
-
-  aws sts get-caller-identity
-
-5. Expected output::
-   {
-    "UserId": "USERID",
-    "Account": "123456789012",
-    "Arn": "arn:aws:iam::123456789012:user/YourUsername"
-}
 
 ## Installation
   1. Clone the repository:

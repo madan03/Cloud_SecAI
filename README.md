@@ -81,6 +81,30 @@ Ensure that Python 3.8 or higher is installed. You can verify your Python versio
    ```bash
    python3 app.py
 
+## Docker Support
+
+1. **Building the container**:
+    ```bash
+    docker build -t cloud-sec-ai .
+
+## Running with Docker 
+1. **Create .env file with your credentials**:
+   ```bash
+   SLACK_WEBHOOK_URL=your_webhook_url
+   SLACK_API_TOKEN=your_api_token
+   AWS_ACCESS_KEY_ID=your_aws_key
+   AWS_SECRET_ACCESS_KEY=your_aws_secret
+   AWS_DEFAULT_REGION=your_aws_region
+
+2. **Run the container**:
+   ```bash
+   docker run --env-file .env cloud-sec-ai
+
+3. **Run the Docker compose file**:
+   ```bash
+   docker compose -f dockerfile up -d
+
+
 ## This will execute:
 1. Prowler installation check
 2. Security scan using Prowler

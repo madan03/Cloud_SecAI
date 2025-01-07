@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  cloudsec:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Specify the path to your Dockerfile
+    env_file: .env
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    container_name: cloudsec  # Set container name to cloudsec
+    networks:
+      - bridge_network
+
+networks:
+  bridge_network:
+    driver: bridge  # Set network driver to bridge

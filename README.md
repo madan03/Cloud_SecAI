@@ -37,11 +37,11 @@ An automated cloud security analysis tool that integrates Prowler security check
 
 6. **Expected output**:
    ```bash
-{
-  "UserId": "USERID",
-  "Account": "123456789012",
-  "Arn": "arn:aws:iam::123456789012:user/YourUsername"
-}
+  {
+      "UserId": "USERID",
+      "Account": "123456789012",
+      "Arn": "arn:aws:iam::123456789012:user/YourUsername"
+  }
 
 ## Installation
 1. **Clone the repository**:

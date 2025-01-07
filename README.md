@@ -100,7 +100,8 @@ Ensure that Python 3.8 or higher is installed. You can verify your Python versio
    ```bash
    docker run --env-file .env cloud-sec-ai
 
-3. **Run the Docker compose file**:
+## Docker Compose Support of this project::
+1. **Run the Docker compose file**:
    ```bash
    docker compose -f dockerfile up -d
 

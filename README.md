@@ -1,4 +1,4 @@
-<h1><b>Cloud Security Analysis and Automation using AI/ML</b></h1>
+# <b>Cloud Security Analysis and Automation using AI/ML</b>
 
 ## Project Description
 An automated cloud security analysis tool that integrates Prowler security checks with machine learning for anomaly detection and risk prediction in AWS environments.
@@ -6,14 +6,15 @@ An automated cloud security analysis tool that integrates Prowler security check
 ## Prerequisites
 - Python 3.8 or higher
 - AWS CLI configured with appropriate credentials
-- Required Python packages (listed in requirements.txt)
+- Required Python packages (listed in `requirements.txt`)
 
 ## AWS CLI Configuration
 
-1. Install AWS CLI::
-   
+1. **Install AWS CLI**:
+   ```bash
    sudo apt-get update;
    sudo apt-get install awscli
+
 
 2. Verify AWS CLI installation ::
    aws --version
@@ -21,11 +22,12 @@ An automated cloud security analysis tool that integrates Prowler security check
 3. Configure AWS Credientials::
    aws configure
 
-  You will be prompted for:
-    AWS Access Key ID
-    AWS Secret Access Key
-    Default region name (e.g., us-east-1)
-    Default output format (json)
+You will be prompted for:
+
+AWS Access Key ID
+AWS Secret Access Key
+Default region name (e.g., us-east-1)
+Default output format (json)
 
 4. Verify configuration::
 
@@ -56,7 +58,7 @@ An automated cloud security analysis tool that integrates Prowler security check
   Run the complete analysis pipeline:
   python3 app.py
 
-# Project Name
+
 
 ## This will execute:
 1. Prowler installation check

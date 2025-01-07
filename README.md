@@ -8,11 +8,28 @@ An automated cloud security analysis tool that integrates Prowler security check
 - AWS CLI configured with appropriate credentials
 - Required Python packages (listed in `requirements.txt`)
 
+## Setting up a Python Virtual Environment
+1. **Install Python (if not already installed)**:
+Ensure that Python 3.8 or higher is installed. You can verify your Python version with the following command:
+    ```bash
+    python3 --version
+2. **Create a Virtual Environment**:
+    ```bash
+    python3 -m venv abcenv
+3. **Activate the Virtual Environment**:
+3.1 **For Linux/macOS**:
+    ```bash
+    source abcenv/bin/activate
+3.2 **For Windows**:
+    ```bash
+    .\abcenv\Scripts\activate
+
+
 ## AWS CLI Configuration
 
 1. **Install AWS CLI**:
    ```bash
-   sudo apt-get update;
+   sudo apt-get update
    sudo apt-get install awscli
 
 2. **Verify AWS CLI installation**:

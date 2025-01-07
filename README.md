@@ -105,7 +105,6 @@ Ensure that Python 3.8 or higher is installed. You can verify your Python versio
    ```bash
    docker compose -f dockerfile up -d
 
-
 ## This will execute:
 1. Prowler installation check
 2. Security scan using Prowler

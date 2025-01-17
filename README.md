@@ -4,7 +4,7 @@
 An automated cloud security analysis tool that integrates Prowler security checks with machine learning for anomaly detection and risk prediction in AWS environments.
 
 ## Prerequisites
-- Python 3.8 or higher
+- Python 3.10 or higher
 - AWS CLI configured with appropriate credentials
 - Required Python packages (listed in `requirements.txt`)
 

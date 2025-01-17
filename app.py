@@ -13,9 +13,9 @@ if __name__ == "__main__":
         print("Installation completed.\n")
 
         # Step 2: Run the prowler check
-        #print("Running run_prowler.py...")
-        #run_prowler_check()
-        #print("Prowler check completed.\n")
+        print("Running run_prowler.py...")
+        run_prowler_check()
+        print("Prowler check completed.\n")
 
         # Step 3: Run the data preprocessing
         print("Running data_pre.py...")

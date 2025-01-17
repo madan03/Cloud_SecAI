@@ -13,6 +13,8 @@ def main():
     # Retrieve Slack Webhook URL and API token from environment variables
     SLACK_WEBHOOK_URL = os.getenv('SLACK_WEBHOOK_URL')
     SLACK_API_TOKEN = os.getenv('SLACK_API_TOKEN')  # Add your Slack API token to the .env file
+    SLACK_CHANNEL_ID = os.getenv('SLACK_CHANNEL_ID')
+
 
     if not SLACK_API_TOKEN:
         print("Slack API token is missing. Please add it to the .env file.")
@@ -78,7 +80,7 @@ def main():
                     headers={"Authorization": f"Bearer {SLACK_API_TOKEN}"},
                     files={"file": file},
                     data={
-                        "channels": "C081802DX1P",  # Replace with your Slack channel ID
+                        "channels": SLACK_CHANNEL_ID,  # Replace with your Slack channel ID
                         "filename": os.path.basename(plot_path),
                         "title": "Anomaly Detection Plot",
                         "initial_comment": "Here is the anomaly detection plot for the latest scan."

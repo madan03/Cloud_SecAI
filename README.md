@@ -75,6 +75,7 @@ Ensure that Python 3.8 or higher is installed. You can verify your Python versio
    ```bash
    SLACK_WEBHOOK_URL=your_webhook_url
    SLACK_API_TOKEN=your_api_token
+   SLACK_CHANNEL_ID=your_slack_channel_id
 
 ## Usage
 1. **Run the complete analysis pipeline**:

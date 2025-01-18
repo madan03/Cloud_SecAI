@@ -10,7 +10,7 @@ An automated cloud security analysis tool that integrates Prowler security check
 
 ## Setting up a Python Virtual Environment
 1. **Install Python (if not already installed)**:
-Ensure that Python 3.8 or higher is installed. You can verify your Python version with the following command:
+Ensure that Python 3.10 or higher is installed. You can verify your Python version with the following command:
     ```bash
     python3 --version
 2. **Create a Virtual Environment**:
